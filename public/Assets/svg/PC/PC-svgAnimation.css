@@ -1,0 +1,18 @@
+#All_Lines{
+   animation: movingUpWards 3s linear infinite;
+}
+
+#React{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: spinning 12s linear infinite;
+}
+
+@keyframes spinning{
+    from { transform: rotateZ(0deg); }
+    to { transform: rotateZ(360deg); }
+}
+@keyframes movingUpWards{
+    from{ transform: translateY(0px) }
+    to{ transform: translateY(-48px)}
+}

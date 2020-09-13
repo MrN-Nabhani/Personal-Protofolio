@@ -1,0 +1,45 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+/*
+   * create SCSS variables of the screen sizes from Theme.js
+*/
+
+.image-gallery-slide-wrapper {
+  img {
+    border-radius: 30px;
+    object-fit: none;
+  }
+  button {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  &:hover button {
+    opacity: 1;
+  }
+}
+.image-gallery-content {
+  margin: auto;
+
+  @media only screen and (min-width: 775px) {
+    display: flex;
+  }
+  @media only screen and (min-width: 1250px) {
+    display: flex;
+    width: 70%;
+  }
+}
+
+.image-gallery-fullscreen-button{
+  display: none;
+}
+
+.image-gallery-thumbnail-image{
+  width:  250px;
+}
+.image-gallery-thumbnails-container {
+  /* tablet */
+  @media only screen and (min-width: 775px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
