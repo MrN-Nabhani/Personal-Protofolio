@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 const AboutContainer = styled.section`
   position: relative;
-  height: 100vh;
+  /* min-height: 100vh; */
   
   padding-top: 5rem;
   margin: auto;
   
-  @media only screen and (min-width: ${({ theme }) => theme.screen.tablets}) {
+  @media only screen and (min-width: ${({ theme }) => theme.screen.tablet}) {
     width: 80%;
-    padding-top: 0rem;
+    /* min-height: 60vh; */
+    /* padding-top: 0rem; */
   }
 `;
 
@@ -26,13 +27,11 @@ export const Mannequin = styled.img`
     width: 30%;
   }
   @media only screen and (min-width: ${({ theme }) => theme.screen.tablet}) {
-    /* opacity: 1; */
     width: 20%;
   }
 
-  @media only screen and (min-width: ${({ theme }) => theme.screen.tablet}) {
+  @media only screen and (min-width: ${({ theme }) => theme.screen.desktop}) {
     width: 10%;
-    opacity:1;
   }
 `;
 

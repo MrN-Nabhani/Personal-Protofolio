@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 const ProjectsContainer = styled.section`
-  /* height: 100vh; */
-  
   margin: auto;
-  padding-top: 5rem;
+  padding-top: 10%;
   
   text-align: center;
   

@@ -1,14 +1,14 @@
 import React, { useRef, useState, useEffect } from "react";
 import NavMenu from "./styles/NavMenu";
 import Logo from "./styles/Logo";
-import Links from "./styles/Links";
+import Links, { NavLink } from "./styles/Links";
 import MobileMenu from "./MobileNav/MobileMenu.jsx";
 
 const links = [
-  <a href="/#about">About</a>,
-  <a href="/#projects">Projects</a>,
-  <a href="/#illustrations">Illustations</a>,
-  <a href="/#contact">Contact</a>,
+  <NavLink href="/#about">About</NavLink>,
+  <NavLink href="/#projects">Projects</NavLink>,
+  <NavLink href="/#illustrations">Illustations</NavLink>,
+  <NavLink href="/#contact">Contact</NavLink>,
 ];
 export default function NavBar() {
   const scrollInfoRef = useRef(null);

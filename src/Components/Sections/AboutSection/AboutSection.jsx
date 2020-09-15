@@ -51,10 +51,6 @@ const About = ({ id }) => {
           <Skills
             title="Tools"
             skillSet={[
-              {
-                skillName: "NPM",
-                descList: ["Package management", "Webpack"],
-              },
               { skillName: "GIT", descList: ["Source control", "Good documentation"] },
               { skillName: "XD", descList: ["Illustration", "Prototyping"] },
             ]}

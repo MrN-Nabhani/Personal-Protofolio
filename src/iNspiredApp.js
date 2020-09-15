@@ -6,6 +6,7 @@ import Container from "./Components/Sections/Container.jsx";
 import About from "./Components/Sections/AboutSection/AboutSection.jsx";
 import ProjectsSection from "./Components/Sections/ProjectsSection/ProjectsSection.jsx";
 import IllustrationSection from "./Components/Sections/IllustrationSection/IllustrationSection.jsx";
+import ContactSection from "./Components/Sections/ContactSection/ContactSection.jsx";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
         <ProjectsSection id="projects"/>
 
         <IllustrationSection id="illustrations"/>
+
       </Container>
+        <ContactSection id="contact" />
     </div>
   );
 }

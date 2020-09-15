@@ -2,10 +2,7 @@ import styled from "styled-components";
 
 const IllustrationContainer = styled.section`
   margin: auto;
-  padding-top: 5rem;
-  
-  height: 100vh;
-  
+  padding: 5rem 0;  
   text-align: center;
   
 `;

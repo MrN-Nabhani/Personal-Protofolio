@@ -28,7 +28,7 @@ export const SkillIcon = styled.img`
   filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.4)); */
   color: red;
   @media only screen and (min-width: ${({ theme }) => theme.screen.largeDevice}) {
-    width: 64px;
+    width: 70px; //64 is pixel perfect for most tho
   }
 `;
 
@@ -37,19 +37,20 @@ export const Skill = styled.div`
   flex-direction: column;
   cursor: not-allowed;
   opacity: 0.5;
-  transition: padding 0.5s;
+  transition: padding 1s;
   ${({ disabled }) =>
     !disabled &&
     css`
       opacity: 1;
      cursor: pointer;
-  &:hover {
-    padding: 0.5rem;
-    
-    ul {
-      display: block;
-    }
-    `}
+
+    &:hover {
+      padding: 0.5rem;
+      
+      ul {
+        display: block;
+      }
+    }`
   }
 `;
 

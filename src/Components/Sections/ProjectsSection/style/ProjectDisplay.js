@@ -17,11 +17,16 @@ export const ProjectTitle = styled(Header)``;
 
 export const ProjectDescribtion = styled(Paragraph)``;
 
-export const ProjectImage = styled.img`
+export const ProjectImage = styled.img.attrs(props => ({
+  loading: 'lazy'
+}))`
   display: inline-block;
-  width: 400px;
+  width: 300px;
   margin: auto;
   border-radius: 30px;
+  border-bottom: 6px outset; 
+  object-fit: cover;
+  object-position: center top;
 
   @media only screen and (min-width: ${({ theme }) =>
       theme.screen.tablet}) {
@@ -30,7 +35,7 @@ export const ProjectImage = styled.img`
 
   @media only screen and (min-width: ${({ theme }) =>
       theme.screen.desktop}) {
-    width: 500px;
+    width:  400px;
     height: 400px;
     
   }

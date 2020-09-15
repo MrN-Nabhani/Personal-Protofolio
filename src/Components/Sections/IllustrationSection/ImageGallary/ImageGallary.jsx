@@ -8,18 +8,18 @@ const images = [
     thumbnail: "Assets/digitalArt/DOPAMINE.png",
   },
   {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
+    original:  "Assets/digitalArt/Brothers_Grad_Card.png",
+    thumbnail: "Assets/digitalArt/Brothers_Grad_Card.png",
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
+    original:  "Assets/digitalArt/Tanash-YouTube-Cover.png",
+    thumbnail: "Assets/digitalArt/Tanash-YouTube-Cover.png",
   },
 ];
 
 const Gallery = () => {
   return (
-    <ImageGallery items={images} />
+    <ImageGallery items={images} autoPlay/>
   );
 };
 

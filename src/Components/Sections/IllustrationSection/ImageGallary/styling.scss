@@ -4,11 +4,48 @@
    * create SCSS variables of the screen sizes from Theme.js
 */
 
-.image-gallery-slide-wrapper {
-  img {
-    border-radius: 30px;
-    object-fit: none;
+.image-gallery-content {
+  @media only screen and (min-width: 1040px){
+    margin: auto;
+    width: 85%;
   }
+}
+
+.image-gallery-content.fullscreen{
+  img{
+    width: 100%;
+    border-radius: 0;
+    object-fit: contain;
+    // transition: 1s;
+  }
+}
+.image-gallery-slide .image-gallery-image{
+  width: 90%;
+  min-height: 700px;
+
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: center center;
+
+  @media only screen and (min-width: 1000px){
+    width: 800px;
+    height: 1000px;
+  }
+
+  @media only screen and (min-width: 1530px){
+    width: 1000px;
+    border-radius: 30px;
+    object-position: center center;
+    height: 1000px;
+  }
+}
+
+
+.image-gallery-slide-wrapper {
+  // img {
+  //   border-radius: 30px;
+  //   object-fit: none;
+  // }
   button {
     opacity: 0;
     transition: opacity 0.5s;
@@ -29,9 +66,6 @@
   }
 }
 
-.image-gallery-fullscreen-button{
-  display: none;
-}
 
 .image-gallery-thumbnail-image{
   width:  250px;
