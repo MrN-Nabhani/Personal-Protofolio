@@ -37,7 +37,7 @@ export const Skill = styled.div`
   flex-direction: column;
   cursor: not-allowed;
   opacity: 0.5;
-  transition: padding 1s;
+  transition: padding 0.5s;
   ${({ disabled }) =>
     !disabled &&
     css`
