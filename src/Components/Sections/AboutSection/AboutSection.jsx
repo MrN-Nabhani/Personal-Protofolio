@@ -18,7 +18,7 @@ const About = ({ id }) => {
           (first name directly translates to Star of the Religion)
         </Subtext> */}
         <Paragraph>
-          An iNspired computer scientist excells in creating valuable, effiecent
+          An iNspired computer scientist excells in creating valuable, efficient
           and user-friendly applications for the web.
         </Paragraph>
         {/* <p>
@@ -32,7 +32,7 @@ const About = ({ id }) => {
             title="Tech"
             skillSet={[
               { skillName: "HTML", descList: ["Semantic", "Modern HTML5"] },
-              { skillName: "CSS", descList: ["SASS / Styled Components", "responsive design"] },
+              { skillName: "CSS", descList: ["SASS / Styled Components", "Responsive design"] },
               {
                 skillName: "JS",
                 descList: ["ES6", "DOM manipulation", "Asynchronity"],

@@ -7,16 +7,21 @@ const ProjectsSection = ({ id }) => {
     <ProjectsContainer id={id}>
       <Project project_name="EMOTION" 
         preview_url="Assets/projectPhotos/EMOTION-appicon.png"
-        project_desc="Consectetur ex mollit Lorem do aute exercitation ea occaecat et ipsum. Consectetur ea qui dolore amet aute cillum amet laboris laborum aute. Nulla irure quis sit ipsum veniam ipsum irure deserunt eu dolore magna nostrud cillum ea. Dolor ullamco tempor dolor anim consectetur cillum quis sint occaecat elit elit ad nisi officia."
+        project_desc="Android game with infinite levels. the puzzle is randomly generated using a constructive algorithm in such a way that a solution always exists."
+        project_link="https://play.google.com/store/apps/details?id=com.Mr.N.Emotions"
       />
 
       <Project project_name="CF Who Solved It" 
         preview_url="Assets/projectPhotos/WhoSolvedItScreenshot.png"
-        project_desc="Id fugiat velit minim eiusmod laborum nulla veniam exercitation ipsum. Excepteur officia et labore labore."
+        project_desc="A web app built using Codeforces.com API, it helps tell if a user had solved a specific problem using the problem's ID (numbers) and index (character)"
+        project_link="https://mrn-nabhani.github.io/Who-Solved-It/"
       />
 
-      <Project project_name="AABU Schedule Editor" project_desc="Web app made with React and Redux " />
-      <Project/>
+      <Project project_name="AABU Schedule Builder"
+        preview_url="Assets/projectPhotos/AABU-Schedule-Builder.jpg"
+        project_desc="A user-friendly web app that facilitates the scheduling process for university students. It combines the views for the student's study plan, schedule, and the available material for the current semester" 
+        project_link="https://aabuschedule.herokuapp.com/"
+       />
     </ProjectsContainer>
   );
 };

@@ -11,7 +11,8 @@ const ContactSection = ({ id }) =>{
 						<Header primary> Personal Info.</Header>
 						<Paragraph fontColor="white">Najm El-Deen Marwan Nabhani</Paragraph>
 						<Paragraph fontColor="white"><Link target="_blank" href="mailto:najm.nabhani@gmail.com">najm.nabhani@gmail.com</Link></Paragraph>
-						<Paragraph fontColor="white">Swefieh Bakhit Al-Issa St. Amman, Jordan</Paragraph>
+						<Paragraph fontColor="white"> Swefieh Bakhit Al-Issa St. Amman, Jordan</Paragraph>
+						<Paragraph fontColor="white"><Link href="tel:+962790970943">(+962) 79 097 0943</Link></Paragraph>
 				</TextWrapper>
 
 				<TextWrapper textAlign="left">

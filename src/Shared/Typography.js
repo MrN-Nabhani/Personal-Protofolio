@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const TextWrapper = styled.div`
-  padding: 0rem 2rem;
+  padding: 0rem 1.5rem;
   text-align: ${({textAlign}) => textAlign || 'center'};
   /* change responsive acts here */
 `;
