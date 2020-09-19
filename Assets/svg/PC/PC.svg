@@ -1,0 +1,109 @@
+<?xml-stylesheet type="text/css" href="PC-svgAnimation.css" ?>    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256.112" height="247.949" viewBox="0 0 256.112 247.949">
+
+  <defs>
+    <filter id="Path_51" x="95.918" y="184.117" width="64.276" height="63.831" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="PC" transform="translate(-495 -30)">
+
+
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="256.112" height="185.46" rx="11" transform="translate(495 30)" fill="#5d5b5b"/>
+    <path id="Path_50" data-name="Path 50" d="M0,0H233.15V145.719H0Z" transform="translate(506.481 45.663)" fill="#f4f7f7"/>
+    <g transform="matrix(1, 0, 0, 1, 495, 30)" filter="url(#Path_51)">
+      <path id="Path_51-2" data-name="Path 51" d="M21.992,17.582a10,10,0,0,1,17.837,0L54.453,46.413a10,10,0,0,1-8.918,14.524H16.285A10,10,0,0,1,7.367,46.413Z" transform="translate(97.15 177.51)" fill="#5d5b5b"/>
+    </g>
+    <g id="PC_Screen" data-name="PC Screen" transform="translate(-169 -48.551)">
+      <g id="VS_Code" data-name="VS Code">
+        <rect id="Rectangle_16" data-name="Rectangle 16" width="142" height="92" transform="translate(686 120)" fill="#7f86e0"/>
+        <rect id="Rectangle_17" data-name="Rectangle 17" width="142" height="7" transform="translate(686 120)" fill="#6772ff"/>
+        <rect id="Rectangle_18" data-name="Rectangle 18" width="34" height="4" rx="2" transform="translate(696 137)" fill="#da5a5a"/>
+        <rect id="Rectangle_18-2" data-name="Rectangle 18" width="20" height="4" rx="2" transform="translate(743 137)" fill="#da5a9e"/>
+        <rect id="Rectangle_18-3" data-name="Rectangle 18" width="34" height="4" rx="2" transform="translate(696 146)" fill="#da5a5a"/>
+        <rect id="Rectangle_18-4" data-name="Rectangle 18" width="18" height="4" rx="2" transform="translate(760 146)" fill="#5ad1da"/>
+        <rect id="Rectangle_18-5" data-name="Rectangle 18" width="34" height="4" rx="2" transform="translate(696 155)" fill="#dab45a"/>
+        <rect id="Rectangle_18-6" data-name="Rectangle 18" width="47" height="4" rx="2" transform="translate(735 155)" fill="#5ada7c"/>
+        <rect id="Rectangle_18-7" data-name="Rectangle 18" width="24" height="4" rx="2" transform="translate(776 137)" fill="#dab45a"/>
+        <rect id="Rectangle_18-8" data-name="Rectangle 18" width="51" height="4" rx="2" transform="translate(696 164)" fill="#da5a5a"/>
+        <rect id="Rectangle_18-9" data-name="Rectangle 18" width="20" height="4" rx="2" transform="translate(696 173)" fill="#5ada7c"/>
+        <rect id="Rectangle_21" data-name="Rectangle 21" width="20" height="4" rx="2" transform="translate(737 202)" fill="#da5a5a"/>
+        <rect id="Rectangle_18-10" data-name="Rectangle 18" width="37" height="4" rx="2" transform="translate(718 173)" fill="#dab45a"/>
+        <rect id="Rectangle_20" data-name="Rectangle 20" width="37" height="4" rx="2" transform="translate(696 202)" fill="#da5a9e"/>
+        <rect id="Rectangle_18-11" data-name="Rectangle 18" width="25" height="4" rx="2" transform="translate(753 164)" fill="#5ad1da"/>
+        <rect id="Rectangle_18-12" data-name="Rectangle 18" width="26" height="4" rx="2" transform="translate(696 193)" fill="#dab45a"/>
+        <rect id="Rectangle_19" data-name="Rectangle 19" width="33" height="4" rx="2" transform="translate(727 193)" fill="#5ad1da"/>
+        <rect id="Rectangle_18-13" data-name="Rectangle 18" width="34" height="4" rx="2" transform="translate(696 182)" fill="#5ad1da"/>
+      </g>
+      <g id="Git">
+        <mask id="clipping">
+          <rect cx="100" width="74" height="50" transform="translate(811 182)" fill="white"/>
+          <rect cx="100" width="74" height="50" transform="translate(811 225)" fill="black"/>
+        </mask>
+
+        <rect id="Rectangle_22" data-name="Rectangle 22" cx="100" width="74" height="50" transform="translate(811 178)" fill="#434343"/>
+        <g mask="url(#clipping)">
+            <g id="All_Lines">
+              <g id="Lines" transform="translate(0, 0)">
+                <line id="Line" y1="0.119" x2="33.341" transform="translate(815.159 183.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-2" data-name="Line" x2="23" transform="translate(855.495 183.619)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-3" data-name="Line" y1="0.059" x2="13.341" transform="translate(815.159 190.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-4" data-name="Line" x2="7" transform="translate(845.5 224.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-5" data-name="Line" x2="7" transform="translate(847.5 204.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-6" data-name="Line" x2="7" transform="translate(856.5 224.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-7" data-name="Line" x2="23" transform="translate(843.495 190.559)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-8" data-name="Line" x2="8.341" transform="translate(815.159 197.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-9" data-name="Line" x2="25.005" transform="translate(825.495 197.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-10" data-name="Line" x2="28.341" y2="0.059" transform="translate(815.159 204.441)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-11" data-name="Line" y1="0.059" x2="25.827" transform="translate(815.5 224.441)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-12" data-name="Line" x2="33.341" y2="0.119" transform="translate(815.159 211.381)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-13" data-name="Line" x2="16.173" y2="0.119" transform="translate(815.327 218.381)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-14" data-name="Line" x2="17.005" y2="0.119" transform="translate(837.495 218.381)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+        
+              </g>
+
+              <g id="Lines-2" data-name="Lines" transform="translate(0 48)">
+                <line id="Line-15" data-name="Line" y1="0.119" x2="33.341" transform="translate(815.159 183.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-16" data-name="Line" x2="23" transform="translate(855.495 183.619)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-17" data-name="Line" y1="0.059" x2="13.341" transform="translate(815.159 190.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-18" data-name="Line" x2="7" transform="translate(845.5 224.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-19" data-name="Line" x2="7" transform="translate(847.5 204.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-20" data-name="Line" x2="7" transform="translate(856.5 224.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-21" data-name="Line" x2="23" transform="translate(843.495 190.559)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-22" data-name="Line" x2="8.341" transform="translate(815.159 197.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-23" data-name="Line" x2="25.005" transform="translate(825.495 197.5)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-24" data-name="Line" x2="28.341" y2="0.059" transform="translate(815.159 204.441)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-25" data-name="Line" y1="0.059" x2="25.827" transform="translate(815.5 224.441)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-26" data-name="Line" x2="33.341" y2="0.119" transform="translate(815.159 211.381)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-27" data-name="Line" x2="16.173" y2="0.119" transform="translate(815.327 218.381)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+                <line id="Line-28" data-name="Line" x2="17.005" y2="0.119" transform="translate(837.495 218.381)" fill="none" stroke="#7fe96e" stroke-width="3"/>
+              </g>
+
+            </g>
+
+
+          </g>
+      </g>
+
+      <g id="React" transform="translate(10 -15)">
+        <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(875 134) rotate(90)" fill="none" stroke="#53c1de" stroke-width="2">
+          <ellipse cx="7.5" cy="19.5" rx="7.5" ry="19.5" stroke="none"/>
+          <ellipse cx="7.5" cy="19.5" rx="6.5" ry="18.5" fill="none"/>
+        </g>
+        <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(858.755 120.863) rotate(30)" fill="none" stroke="#53c1de" stroke-width="2">
+          <ellipse cx="7.5" cy="19.5" rx="7.5" ry="19.5" stroke="none"/>
+          <ellipse cx="7.5" cy="19.5" rx="6.5" ry="18.5" fill="none"/>
+        </g>
+        <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(839.255 128.363) rotate(-30)" fill="none" stroke="#53c1de" stroke-width="2">
+          <ellipse cx="7.5" cy="19.5" rx="7.5" ry="19.5" stroke="none"/>
+          <ellipse cx="7.5" cy="19.5" rx="6.5" ry="18.5" fill="none"/>
+        </g>
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="3" cy="3" r="3" transform="translate(853 139)" fill="#53c1de"/>
+      </g>
+    </g>
+  </g>
+</svg>
