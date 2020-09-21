@@ -5,10 +5,10 @@ import Links, { NavLink } from "./styles/Links";
 import MobileMenu from "./MobileNav/MobileMenu.jsx";
 
 const links = [
-  <NavLink href="/#about">About</NavLink>,
-  <NavLink href="/#projects">Projects</NavLink>,
-  <NavLink href="/#illustrations">Illustations</NavLink>,
-  <NavLink href="/#contact">Contact</NavLink>,
+  <NavLink href="/Personal-Protofolio/#about">About</NavLink>,
+  <NavLink href="/Personal-Protofolio/#projects">Projects</NavLink>,
+  <NavLink href="/Personal-Protofolio/#illustrations">Illustations</NavLink>,
+  <NavLink href="/Personal-Protofolio/#contact">Contact</NavLink>,
 ];
 export default function NavBar() {
   const scrollInfoRef = useRef(null);
