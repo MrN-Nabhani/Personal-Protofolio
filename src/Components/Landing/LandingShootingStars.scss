@@ -7,7 +7,6 @@ $shooting-time: 3000ms;
   // left: 20%;
   width: 100%;
   height: 100%;
-  transform: rotateZ(130deg);
   z-index: -1;
   // opacity: 0.5;
   // animation: sky 200000ms linear infinite;
@@ -21,7 +20,7 @@ $shooting-time: 3000ms;
   
   // width: 100px;
   height: 2px;
-  background: linear-gradient(-45deg, rgb(255, 255, 255), rgba(0, 0, 0, 0)); //linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+  // background: linear-gradient(-45deg, rgb(255, 255, 255), rgba(0, 0, 0, 0)); //linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
   border-radius: 999px;
   filter: drop-shadow(0 0 6px rgb(184, 185, 185)); //rgba(105, 155, 255, 1)
   animation:
@@ -46,11 +45,11 @@ $shooting-time: 3000ms;
     transform: translateX(50%) rotateZ(-45deg);
   }
   
-  @for $i from 1 through 20 {
+  @for $i from 1 through 10 {
     &:nth-child(#{$i}) {
       $delay: random(9999) + 0ms;
       top: calc(50% - #{random(800) - 500px});
-      left: calc(#{random(2000) + 10px});  // left: calc(#{random(700) + 10px});
+      left: #{calc(#{random(2000) + 10px})};  // left: calc(#{random(700) + 10px});
       animation-delay: $delay;
       opacity: random(50) / 100 + 0.5;
       
@@ -63,17 +62,17 @@ $shooting-time: 3000ms;
 }
 
 @keyframes tail {
-  0% {
-    width: 0;
-  }
+  // 0% {
+  //   width: 0;
+  // }
   
-  30% {
-    width: 100px;
-  }
+  // 30% {
+  //   width: 100px;
+  // }
   
-  100% {
-    width: 0;
-  }
+  // 100% {
+  //   width: 0;
+  // }
 }
 
 @keyframes shining {
@@ -91,21 +90,11 @@ $shooting-time: 3000ms;
 }
 
 @keyframes shooting {
-  0% {
-    transform: translateX(0);
-  }
+  // 0% {
+  //   transform: translateX(0);
+  // }
   
-  100% {
-    transform: translateX(300px);
-  }
-}
-
-@keyframes sky {
-  0% {
-    transform: rotate(45deg);
-  }
-  
-  100% {
-    transform: rotate(45 + 360deg);
-  }
+  // 100% {
+  //   transform: translateX(300px);
+  // }
 }

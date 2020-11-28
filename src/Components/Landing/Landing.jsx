@@ -19,17 +19,17 @@ const landing = () => {
 
   return (
     <LandingContainer>
-      <div className="night">{renderShootingStar(20)}</div>
+      <div className="night">{renderShootingStar(10)}</div>
       <Phrase animationDelay="1s">
         <Header animationDelay="0s"> Design or Code </Header>
         <Header animationDelay="2s"> Mr.N Got You Covered! </Header>
       </Phrase>
 
-      <PCsvg
+      {/* <PCsvg
         className="pc"
         type="image/svg+xml"
         data="Assets/svg/PC/PC.svg"
-      ></PCsvg>
+      ></PCsvg> */}
     </LandingContainer>
   );
 };

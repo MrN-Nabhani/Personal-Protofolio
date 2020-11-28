@@ -10,10 +10,10 @@ const Project = ({
   return (
     <P.ProjectWrapper>
       <P.ProjectImage src={preview_url} />
+      <P.ProjectTitle>{project_name}</P.ProjectTitle>
       <P.ProjectDetails>
-        <P.ProjectTitle>{project_name}</P.ProjectTitle>
-        <P.ProjectDescribtion>{project_desc}</P.ProjectDescribtion>
-        <P.ProjectViewButton url={project_link}> View Project </P.ProjectViewButton>
+        {/* <P.ProjectDescribtion>{project_desc}</P.ProjectDescribtion> */}
+        {/* <P.ProjectViewButton url={project_link}> View Project </P.ProjectViewButton> */}
       </P.ProjectDetails>
     </P.ProjectWrapper>
   );

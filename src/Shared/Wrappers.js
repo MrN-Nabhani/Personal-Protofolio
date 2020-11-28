@@ -21,16 +21,13 @@ export const FlexContainerContact = styled.div`
   flex-flow: column nowrap;
   align-items: flex-start;
 
-  @media only screen and (min-width: ${({ theme }) =>
-      theme.screen.tablet}) {
+  @media only screen and (min-width: ${({ theme }) => theme.screen.tablet}) {
     flex-flow: row wrap;
     justify-content: flex-start;
   }
 
-  @media only screen and (min-width: ${({ theme }) =>
-      theme.screen.desktop}) {
+  @media only screen and (min-width: ${({ theme }) => theme.screen.desktop}) {
     flex-flow: row wrap;
     justify-content: space-evenly;
   }
-
 `;

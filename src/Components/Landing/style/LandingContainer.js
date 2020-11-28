@@ -6,12 +6,18 @@ const LandingContainer = styled.div`
 
   overflow: hidden;
   z-index: -10;
-  background-color: #333;
+  /* background-color: #333; */
+  background-image: url('Assets/photos/Pillars-of-Creation.jpg');
+  background-position: center;
+  background-size: cover;
+
+  width: auto;
+  height: 100vh;
+  /* height: 35rem; */
   box-shadow: 0px 1px 10px 3px #333;
-  height: 35rem;
 
   @media only screen and (min-width: ${({theme}) => theme.screen.desktop}) {
-    height: auto;
+    height: 100vh;
   }
 `;
 
